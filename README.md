@@ -8,7 +8,7 @@ Welcome to the DEV-G project! This project is built using React.js and styled wi
 
 - Navigation Tabs: The application offers different tabs, including Home, About, Contact, and Dashboard. These tabs provide easy navigation and access to relevant sections of the platform.
 
-- Home: The Home tab serves as the landing page, providing an overview of the project's purpose and highlighting its key features.
+- Home: The Home tab serves as the landing page.
 
 - About: The About tab provides detailed information about the DEV-G project, its goals, and the benefits it offers to aspiring MERN stack developers.
 
