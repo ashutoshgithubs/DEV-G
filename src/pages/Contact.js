@@ -105,11 +105,25 @@ function Contact() {
         />
       
         <br/>
-        
-        <button
-        className="bg-blue-500 text-white font-bold rounded py-2 px-4 flex justify-center items-center gap-1"
-        >Submit<FaTelegramPlane/>
-        </button>
+        <div className="flex justify-between">
+          <button
+          className="bg-blue-500 text-white font-bold rounded py-2 px-4 flex justify-center items-center gap-1"
+          >Submit<FaTelegramPlane/>
+          </button>
+          {/* Social Icons */}
+          <div className="md:flex justify-evenly items-center gap-2 md:gap-4 hidden">
+              <Link to='https://www.linkedin.com/in/ashutoshkr01/' target="_blank" className="text-blue-800">
+              <FaLinkedin fontSize={22}/>
+              </Link>
+              <Link to='https://twitter.com/Ashubhai_01?t=U7Je9g4gfS3X57ehTeBlrw&s=09' target="_blank" className="text-blue-800">
+                <FaTwitter fontSize={22}/>
+              </Link>
+              <Link to='#' className="text-blue-800">
+              <FaInstagram fontSize={22}/>
+              </Link>
+          </div>
+        </div>
+       
       </form>
 
 
