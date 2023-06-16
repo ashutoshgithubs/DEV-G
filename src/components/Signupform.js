@@ -116,7 +116,7 @@ function Signupform({setIsLoggedIn}) {
         
 
     
-        <div className='w-full flex gap-x-4 mt-[20px]'>
+        <div className='w-full flex flex-col md:flex-row gap-x-4 mt-[20px]'>
             <label className='w-full relative'>
                 <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>Create Password<sup className='text-pink-200'>*</sup></p>
                 <input
@@ -139,7 +139,7 @@ function Signupform({setIsLoggedIn}) {
                 </span>
             </label>
 
-            <label className='w-full relative'>
+            <label className='w-full relative mt-[20px] md:mt-0'>
                 <p className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>Confirm Password<sup className='text-pink-200'>*</sup></p>
                 <input
                     required
