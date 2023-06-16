@@ -134,7 +134,7 @@ function HomeContent() {
     </div>
 
     {/* Founder Profile */}
-    <div className='flex flex-col '>
+    <div className='flex flex-col justify-center items-center'>
    
         <h1 className='text-2xl text-white font-serif'>Meet The <span className='text-2xl text-blue-600 font-serif'>Founder</span></h1>
         <div className="bg-violet-400 h-[2px] w-1/2 text-center mt-1 "></div>
